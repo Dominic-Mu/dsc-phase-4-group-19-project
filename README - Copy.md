@@ -1,16 +1,16 @@
-# Forecasting Bike Rental Demand Based on Weather Patterns
+# Precision Forecasting for Optimal Urban Bike Rental Supply
 
 **Authors**: [Dominic Muli](mailto:dominic.muli@student.moringaschool.com), [Evangeline Ngunjiri](mailto:evangeline.ngunjiri@student.moringaschool.com), and [Ivy Ndunge](mailto:ivy.ndunge@student.moringaschool.com)
 
 ## Project Overview
-Bike sharing systems are bicycle rental services wherein a city's network of kiosk locations automates the membership, rental, and return of bicycle processes. Individuals can borrow a bike from one spot and return it to another as needed by using these services. There are already more than 500 bike-sharing initiatives operating globally.
-Because the length of the trip, the starting point, the destination, and the amount of time that has passed are all openly recorded, these systems create data that is useful for research.  As a result, bike sharing programs operate as a sensor network that may be utilized to research urban mobility. In order to predict the demand for bike rentals in the Capital Bikeshare program in Washington, D.C., competitors are required to integrate meteorological data with prior usage patterns.
+In the rapidly evolving landscape of urban mobility, the efficient operation of rental bike services is crucial for providing enhanced accessibility and convenience to the public. The challenge at hand is to optimize the availability of rental bikes by accurately predicting the hourly demand. This entails leveraging a dataset encompassing various weather parameters (Temperature, Humidity, Windspeed, Visibility, Dewpoint, Solar radiation, Snowfall, Rainfall), historical bike rental counts per hour , and date information.
+
+The objective is to develop a robust predictive model that can anticipate the hourly demand for rental bikes. By doing so, the rental bike service can ensure a stable and well-distributed supply of bikes throughout the city, minimizing waiting times for users and contributing to a seamless and efficient urban mobility experience
 
 
 ## Business Problem
+https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand
 
-
-https://www.kaggle.com/competitions/bike-sharing-demand/overview
 ## Objectives
 
 

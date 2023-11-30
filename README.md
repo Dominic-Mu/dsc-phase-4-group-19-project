@@ -1,15 +1,15 @@
-# Classifying Smoking Habits with Deep Learning
+# Multi-Class Image Classification for Robust Outdoor Weather Recognition
 
 **Authors**: [Dominic Muli](mailto:dominic.muli@student.moringaschool.com), [Evangeline Ngunjiri](mailto:evangeline.ngunjiri@student.moringaschool.com), and [Ivy Ndunge](mailto:ivy.ndunge@student.moringaschool.com)
 
 ## Project Overview
-There are 1120 photographs in the dataset, evenly split into two classes: 560 images show smokers, and the remaining 560 images show non-smokers, or those who do not smoke. The dataset is curated by repeatedly entering terms such as "person," "smoker," "cigarette smoker," "coughing," "taking inhaler," "person on the phone," "drinking water," and so on into different search engines.
+In the realm of outdoor environment analysis, accurate weather recognition from still images plays a pivotal role in diverse applications. The challenge at hand is to harness the potential of the Multi-class Weather Dataset (MWD), a rich collection of images designed for multi-class weather recognition.
 
+The business objective is to leverage the MWD to advance the development of image classification models capable of accurately recognizing and categorizing different weather conditions. By doing so, this project aims to enhance the capabilities of outdoor weather analysis, offering valuable insights for sectors ranging from transportation and agriculture to urban planning and disaster preparedness.
 
 ## Business Problem
-This project aims to curb smoking rates in urban areas. The challenge is to develop an effective, technology-driven solution for automated smoking detection in public spaces. By leveraging deep learning algorithms on surveillance cameras, the organization seeks to identify and monitor instances of smoking in real-time. The objective is to implement a system that not only enforces no-smoking policies but also provides valuable data for targeted anti-smoking campaigns and public health intervention.
 
-https://www.kaggle.com/datasets/sujaykapadnis/smoking
+https://data.mendeley.com/datasets/4drtyfjtfy/1?ref=hackernoon.com
 
 ## Objectives
 
