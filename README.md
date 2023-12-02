@@ -9,7 +9,7 @@ The business objective is to leverage the MWD to advance the development of imag
 
 ## Business Problem
 
-https://data.mendeley.com/datasets/4drtyfjtfy/1?ref=hackernoon.com
+
 
 ## Objectives
 
@@ -18,7 +18,7 @@ https://data.mendeley.com/datasets/4drtyfjtfy/1?ref=hackernoon.com
 
 
 ## Understanding Data
-
+https://data.mendeley.com/datasets/4drtyfjtfy/1?ref=hackernoon.com
 
 ## Methods
 
