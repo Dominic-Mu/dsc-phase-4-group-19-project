@@ -69,6 +69,34 @@ The project will employ a rigorous data analysis process to understand the chara
      * Analyze the results and identify areas for improvement, such as specific weather classes with lower accuracy or model bias towards certain conditions.
 * Model Deployment
 
+## EDA Before Data Pre-Processing
+* Image Preview
+Here, we had a look at 20 random images from the dataset
+<img src="./images/images_preview.png" alt="ImagesPreview" height="400">
+
+* Weather Class Distribution
+Here we found that classes are relatively imbalanced
+<img src="./images/weather_class_distribution.png" alt="WeatherClassDistribution" height="400">
+
+* Image Size Distribution
+
+<img src="./images/image_size_distribution.png" alt="ImageSizeDistribution" height="400">
+
+* Image Size Distribution
+
+<img src="./images/image_size_distribution.png" alt="ImageSizeDistribution" height="400">
+
+* Pixel Distribution
+
+<img src="./images/image_pixel_distribution.png" alt="ImagePixelDistribution" height="400">
+
+## EDA After Data Pre-Processing
+
+* Sample augmented Images
+
+<img src="./images/images\sample_augmented_images.png" alt="SampleAugmentedImages" height="400">
+
+
 ## Conclusions
 
 
