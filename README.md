@@ -73,33 +73,30 @@ The project will employ a rigorous data analysis process to understand the chara
 * Image Preview
 
 Here, we had a look at 20 random images from the dataset
-<div style="background-color: #222; color: white; padding: 10px;">
-    <h2>Sample Augmented Images</h2>
-    <img src="./images/images_preview.png" alt="SampleAugmentedImages" height="400">
-</div>
+<img src="./images/images_preview.svg" alt="SampleAugmentedImages" height="400">
 
 * Weather Class Distribution
 
 Here we found that classes are relatively imbalanced
-<img src="./images/weather_class_distribution.png" alt="WeatherClassDistribution" height="400">
+<img src="./images/weather_class_distribution.svg" alt="WeatherClassDistribution" height="400">
 
 * Image Size Distribution
 
-<img src="./images/image_size_distribution.png" alt="ImageSizeDistribution" height="400">
+<img src="./images/image_size_distribution.svg" alt="ImageSizeDistribution" height="400">
 
 * Image Size Distribution
 
-<img src="./images/image_size_distribution.png" alt="ImageSizeDistribution" height="400">
+<img src="./images/image_size_distribution.svg" alt="ImageSizeDistribution" height="400">
 
 * RGB Distribution
 
-<img src="./images/image_pixel_distribution.png" alt="RGBDistribution" height="400">
+<img src="./images/image_pixel_distribution.svg" alt="RGBDistribution" height="400">
 
 ## EDA After Data Pre-Processing
 
 * Sample augmented Images
 
-<img src="./images/sample_augmented_images.png" alt="SampleAugmentedImages" height="400">
+<img src="./images/sample_augmented_images.svg" alt="SampleAugmentedImages" height="400">
 
 * Initial ANN model
 
