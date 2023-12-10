@@ -75,7 +75,7 @@ The project will employ a rigorous data analysis process to understand the chara
 Here, we had a look at 20 random images from the dataset
 <div style="background-color: #222; color: white; padding: 10px;">
     <h2>Sample Augmented Images</h2>
-    <img src="./images/sample_augmented_images.png" alt="SampleAugmentedImages" height="400">
+    <img src="./images/images_preview.png" alt="SampleAugmentedImages" height="400">
 </div>
 
 * Weather Class Distribution
