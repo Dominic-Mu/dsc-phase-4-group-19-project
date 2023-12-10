@@ -73,7 +73,7 @@ The project will employ a rigorous data analysis process to understand the chara
 * Image Preview
 
 Here, we had a look at 20 random images from the dataset
-<img src="./images/images_preview.svg" alt="SampleAugmentedImages" height="400">
+<img src="./images/images_preview.svg" alt="ImagesPreview" height="400">
 
 * Weather Class Distribution
 
@@ -98,12 +98,6 @@ Here we found that classes are relatively imbalanced
 
 <img src="./images/sample_augmented_images.svg" alt="SampleAugmentedImages" height="400">
 
-* Initial ANN model
-
-* First CNN Model
-
-* Second CNN Model
-
 ## Conclusions
 
 
@@ -112,7 +106,7 @@ Here we found that classes are relatively imbalanced
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](./index.ipynb) or review this [presentation](./index.pdf).
+See the full analysis in the [Jupyter Notebook](./multiclass_image_classification_model.ipynb) or review this [presentation](./multiclass_image_classification_presentation.pdf).
 
 For additional info, contact [Dominic Muli](mailto:dominic.muli@student.moringaschool.com), [Evangeline Ngunjiri](mailto:evangeline.ngunjiri@student.moringaschool.com), and [Ivy Ndunge](mailto:ivy.ndunge@student.moringaschool.com)
 
@@ -120,7 +114,7 @@ For additional info, contact [Dominic Muli](mailto:dominic.muli@student.moringas
 ```
 ├── data
 ├── images
-├── index.ipynb
-├── index.pdf
+├── multiclass_image_classification_model.ipynb
+├── multiclass_image_classification_presentation.pdf
 └── README.md
 ```
