@@ -71,12 +71,15 @@ The project will employ a rigorous data analysis process to understand the chara
 
 ## EDA Before Data Pre-Processing
 * Image Preview
+
 Here, we had a look at 20 random images from the dataset
-</picture>
-  <img src="./images/images_preview.png" alt="ImagesPreview" height="400">
-</picture>
+<div style="background-color: #222; color: white; padding: 10px;">
+    <h2>Sample Augmented Images</h2>
+    <img src="./images/sample_augmented_images.png" alt="SampleAugmentedImages" height="400">
+</div>
 
 * Weather Class Distribution
+
 Here we found that classes are relatively imbalanced
 <img src="./images/weather_class_distribution.png" alt="WeatherClassDistribution" height="400">
 
@@ -88,9 +91,9 @@ Here we found that classes are relatively imbalanced
 
 <img src="./images/image_size_distribution.png" alt="ImageSizeDistribution" height="400">
 
-* Pixel Distribution
+* RGB Distribution
 
-<img src="./images/image_pixel_distribution.png" alt="ImagePixelDistribution" height="400">
+<img src="./images/image_pixel_distribution.png" alt="RGBDistribution" height="400">
 
 ## EDA After Data Pre-Processing
 
@@ -98,6 +101,11 @@ Here we found that classes are relatively imbalanced
 
 <img src="./images/sample_augmented_images.png" alt="SampleAugmentedImages" height="400">
 
+* Initial ANN model
+
+* First CNN Model
+
+* Second CNN Model
 
 ## Conclusions
 
