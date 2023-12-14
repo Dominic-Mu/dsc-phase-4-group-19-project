@@ -13,7 +13,7 @@ The business objective is to leverage the multiclass weather dataset to advance 
 
 
 ## Objectives
-The primary aim of this project is to develop an advanced Convolutional Neural Network (CNN) model for accurate and robust weather classification based on visual cues in images. Leveraging the power of deep learning, this project seeks to create a sophisticated system capable of distinguishing between various weather conditions, including sunny, rainy, cloudy, and sunrise scenes. The objective extends beyond mere image recognition to the creation of a model that exhibits high-level understanding of complex visual patterns associated with different weather phenomena.
+The primary aim of this project is to develop an advanced Convolutional Neural Network (CNN) model for accurate and robust weather classification based on visual cues in images. The objective extends beyond mere image recognition to the creation of a model that exhibits high-level understanding of complex visual patterns associated with different weather phenomena.
 
 * Achieve an accuracy of at least 90% in classifying outdoor weather images across various conditions.
 * Develop a model that is robust to variations in lighting, camera angles, and weather intensity.
