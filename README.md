@@ -102,9 +102,37 @@ Here we found that classes are relatively imbalanced
 
 ## Conclusions
 
+Overall Performance:
 
-### Recommendations
+Our multiclass weather image classification model using a CNN architecture achieved an overall accuracy of 99% on the test dataset. The model performed particularly well on shine with a precision of 0.97, recall of 0.97, and F1-score of 0.97. However, it struggled with rain, achieving a lower precision of 0.8 and recall of 0.8.
 
+The model's strengths include:
+
+* Effective feature extraction: the high accuracy shows the model's ability to extract key features like cloud patterns and textures from weather images.
+* Robustness to noise: The model maintained good performance even when presented with noisy or low-resolution images.
+* Transfer learning: Utilizing pre-trained weights from MobileNet and EfficientNet significantly improved training speed and accuracy.
+
+Limitations:
+
+Despite its successes, the model also has some limitations:
+
+* Limited data availability: The model's performance could potentially improve with a larger and more diverse dataset, particularly for rain class.
+* Overfitting: the history plots show some signs of overfitting on the training data, which could be mitigated by employing techniques like dropout or data augmentation.
+* Limited interpretability: While the model achieves good accuracy, understanding its decision-making process for specific classifications remains a challenge.
+
+
+## Recommendations
+To improve the model's performance and address its limitations, we recommend the following:
+
+* Data acquisition and augmentation: Collecting more data, especially for rain and shine classes, and explore data augmentation techniques to increase the diversity of the training set.
+* Model architecture optimization: Experiment with different CNN architectures and hyperparameters to potentially improve performance and reduce overfitting.
+
+## Future Research Directions
+This work opens up several exciting avenues for future research, including:
+
+* Incorporating additional data modalities: Combining weather image data with other sources like radar or satellite images could potentially improve model accuracy and generalizability.
+* Real-time applications: Exploring methods for deploying the model in real-time applications, such as autonomous vehicle navigation or weather forecasting systems.
+* Novel loss functions: Develop new loss functions specifically designed for weather image classification tasks to address challenges like class imbalance or small data sets.
 
 ## For More Information
 
