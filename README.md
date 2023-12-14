@@ -104,7 +104,7 @@ Here we found that classes are relatively imbalanced
 
 Overall Performance:
 
-Our multiclass weather image classification model using a CNN architecture achieved an overall accuracy of 99% on the test dataset. The model performed particularly well on shine with a precision of 0.97, recall of 0.97, and F1-score of 0.97. However, it struggled with rain, achieving a lower precision of 0.8 and recall of 0.8.
+Our multiclass weather image classification model using a CNN architecture achieved an overall accuracy of 99% on the test dataset. The model performed particularly well on "cloudy class" with a precision of 0.36, recall of 0.35, and F1-score of 0.36. However, it struggled with rain, achieving a lower precision of 0.18 and recall of 0.19.
 
 The model's strengths include:
 
