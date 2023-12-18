@@ -145,6 +145,7 @@ For additional info, contact [Dominic Muli](mailto:dominic.muli@student.moringas
 ├── data
 ├── images
 ├── multiclass_image_classification_model.ipynb
+├── multiclass_image_classification_model.pdf
 ├── multiclass_image_classification_presentation.pdf
 └── README.md
 ```
