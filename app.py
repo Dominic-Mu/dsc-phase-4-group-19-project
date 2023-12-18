@@ -3,13 +3,13 @@ from flask import Flask, request, jsonify
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import Layer
-import tensorflow.keras.backend as K
 import numpy as np
 from PIL import Image
 
 app = Flask(__name__)
-
+# Function to define custom layers not recognized by tensorflow
 class FixedDropout(Layer):
+    ''' Function to define FixedDropout layer'''
     def __init__(self, rate, noise_shape=None, seed=None, **kwargs):
         super(FixedDropout, self).__init__(**kwargs)
         self.rate = rate
@@ -17,11 +17,13 @@ class FixedDropout(Layer):
         self.seed = seed
 
     def call(self, inputs, training=None):
+        ''' Function to define FixedDropout layer'''
         if training:
             return tf.nn.dropout(inputs, rate=self.rate, noise_shape=self.noise_shape, seed=self.seed)
         return inputs
 
     def get_config(self):
+        ''' Function to define FixedDropout layer'''
         config = super(FixedDropout, self).get_config()
         config.update({'rate': self.rate, 'noise_shape': self.noise_shape, 'seed': self.seed})
         return config
